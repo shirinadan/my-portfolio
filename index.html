@@ -1,41 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Shirina Daniel | Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shirina Shaji Daniel</title>
+    <!-- Custom SVG Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%232ea043'>VO</text></svg>'" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description"
+        content="Shirina Shaji Daniel — BA Computer & Information Sciences Student | AI/ML Researcher | Web Developer | Project Lead | Open-Source Contributor" />
 </head>
+
 <body>
+    <header>
+        <div class="header-content">
+            <h1>Shirina Shaji Daniel</h1>
+            <p id="subtitle">BA Computer & Information Sciences Student • AI/ML Researcher • Web Developer • Project Lead • Open-Source Contributor</p>
+        </div>
+    </header>
 
-<header>
-    <h1>Shirina Shaji Daniel</h1>
-    <p>Computer Science Student at FIU | Cybersecurity | AI | Software Development</p>
-</header>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="https://www.linkedin.com/in/shirinadan/" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                <path
+                    d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.25 6.5 1.75 1.75 0 016.5 8.25zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93-.91 0-1.38.71-1.62 1.25-.09.19-.12.44-.12.7v4.72h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.28 1.07 3.28 4.44z">
+                </path>
+            </svg>
+        </a>
+        <a href="https://github.com/shirinadan" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                </path>
+            </svg>
+        </a>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>Hi! I’m Shirina, a junior CS student at FIU with interests in cybersecurity, AI, and software development. I enjoy creating meaningful digital solutions and working on hands-on projects.</p>
-</section>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li><strong>WiCS x GCI Sustainability App</strong> – Lead developer managing UI/UX and architecture.</li>
-        <li><strong>AI Chatbot</strong> – Built with Python and NLP.</li>
-        <li><strong>Data Visualization Dashboard</strong> – JavaScript + APIs.</li>
-    </ul>
-</section>
+        <div class="music-player">
+            <button id="play-button">🎵 Play Smooth Jazz</button>
+            <button id="pause-button" class="hidden">⏸ Pause</button>
+        </div>
+    </nav>
 
-<section id="education">
-    <h2>Education</h2>
-    <p><strong>B.S. Computer Science</strong>, FIU (Expected 2027)</p>
-</section>
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="headshot.jpg" alt="A headshot of Victor Olivo" class="headshot" />
+            <div class="about-text">
+                <p>
+                    I'm a Computer Science student at Rutgers University with a passion for building AI‑powered products
+                    and
+                    using data to solve real‑world problems.
+                </p>
+                <p>
+                    I work across the stack — Python/Flask, Java/Spring, and React — and I’ve trained and deployed ML
+                    models in
+                    production contexts.
+                </p>
+                <a href="resume.pdf" target="_blank" class="button button-about">View My Resume</a>
+            </div>
+        </div>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: shajisd@fiu.edu</p>
-</section>
 
+    <!-- Main Content Wrapper -->
+    <main>
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Rutgers University–New Brunswick</h3>
+                        <h4>B.S. Computer Science (GPA: 4.0)</h4>
+                        <span class="timeline-date">2024 – 2027</span>
+                        <p><strong>Minor:</strong> Psychology</p>
+                        <p><strong>Relevant Coursework:</strong> Data Structures, Discrete Structures I & II, Computer
+                            Architecture, Software Methodology, Linear Algebra</p>
+                        <p><strong>Publication:</strong> <em>Personalization & Privacy: The Give & Take Paradox</em> —
+                            presented at the Rutgers University Research Writing Conference (April 2025)</p>
+                        <p><strong>Activities:</strong> Honors College, ColorStack, Rutgers Catholic, SHPE</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Paramus High School</h3>
+                        <h4>High Honor Roll (Weighted GPA: 4.86)</h4>
+                        <span class="timeline-date">2019 – 2024</span>
+                        <p><strong>Activities:</strong> National Honor Society, Spanish Honor Society, Spanish Club</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <!-- NEW: Hawl Technologies (resume) -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Data Team Lead Intern</h3>
+                        <span class="timeline-date">July 2025 – Present</span>
+                        <h4>Hawl Technologies, LLC | Remote</h4>
+                        <ul>
+                            <li>Lead development of a privacy‑first Chrome extension enabling persistent memory across
+                                ChatGPT, Claude, and Gemini for 2M+ power users.</li>
+                            <li>Coordinate a 3‑member data team; set deadlines and align with UX/backend to ship on
+                                time.</li>
+                            <li>Provide product direction on AI‑powered summarization and semantic search features.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- UPDATED: Pariveda now ended Aug 2025 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Career Accelerator Participant</h3>
+                        <span class="timeline-date">June 2025 – August 2025</span>
+                        <h4>Pariveda | Remote</h4>
+                        <ul>
+                            <li>Completed a 6‑week software consulting program with case‑based problem solving.</li>
+                            <li>Applied user‑centered design to build an AI/ML‑enhanced solution helping regional hotels
+                                compete with short‑term rentals.</li>
+                            <li>Prototyped an AI‑powered customer journey and presented technical architecture
+                                recommendations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- UPDATED: The Takeoff Institute now ended Aug 2025 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Summer Fellow</h3>
+                        <span class="timeline-date">June 2025 – August 2025</span>
+                        <h4>The Takeoff Institute | Remote</h4>
+                        <ul>
+                            <li>Designed backend architecture for a national digital education platform using AWS S3,
+                                PostgreSQL, and ElasticSearch.</li>
+                            <li>Developed RESTful APIs with token‑based auth and encryption for secure, scalable content
+                                delivery.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- UPDATED: AI4ALL still present -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Ignite Summer Fellow</h3>
+                        <span class="timeline-date">May 2025 – Present</span>
+                        <h4>AI4ALL | Remote</h4>
+                        <ul>
+                            <li>20‑week accelerator with industry mentorship & hands‑on ML engineering projects.</li>
+                            <li>Built a production‑ready ML pipeline (Python, scikit‑learn, Gradient Boosting
+                                Regression) processing 5,000+ startup records.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- KEEP: Peer Tutor (not on resume but you asked to keep non‑resume items) -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Peer Tutor — Computer Science</h3>
+                        <span class="timeline-date">February 2025 – Present</span>
+                        <h4>Rutgers SAS Honors Program | New Brunswick, NJ</h4>
+                        <ul>
+                            <li>1:1 and group tutoring in data structures (lists, trees, graphs, hash tables).</li>
+                            <li>Created practice problem sets and debugging sessions for Java coursework.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- KEEP: Barber & Entrepreneur -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Barber and Entrepreneur</h3>
+                        <span class="timeline-date">July 2020 – Present</span>
+                        <h4>Fade O’Clock Shop / Next Level Above Barbershop | New Brunswick, NJ</h4>
+                        <ul>
+                            <li>Performed 15+ haircuts/week for 4 years with consistent client satisfaction.</li>
+                            <li>Ran small‑batch merch line; sold 100+ branded items in the last year.</li>
+                            <li>Built website/app for bookings and payments (Apple Pay/Credit Card).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <!-- UPDATED: Out of the Loop per resume (custom BERT + AWS) -->
+            <div class="project">
+                <h3>Out of the Loop — AI‑Powered News Sentiment Platform</h3>
+                <p>
+                    A full‑stack media analysis app deployed on AWS. Trained a custom BERT regression model (MAE 0.14)
+                    for real‑time
+                    news sentiment scoring without external API dependencies. Backend on EC2 (Flask), PostgreSQL on RDS,
+                    and React
+                    frontend on S3/CloudFront.
+                </p>
+                <div class="tech-tags">
+                    <span>Python</span><span>Flask</span><span>SQLAlchemy</span><span>BeautifulSoup</span><span>Selenium</span>
+                    <span>scikit‑learn</span><span>Hugging Face</span><span>AWS EC2</span><span>AWS RDS</span><span>AWS
+                        S3</span><span>CloudFront</span>
+                </div>
+            </div>
+
+            <!-- KEEP: TikTok Trend Analyzer -->
+            <div class="project">
+                <h3>AI‑Powered TikTok Trend Analyzer</h3>
+                <div class="demo-preview">
+                    <p class="demo-caption">View demo of the dashboard</p>
+                    <img src="images/tiktok-demo.png" alt="TikTok Trend Analyzer Demo Screenshot" class="demo-thumbnail"
+                        id="demo-thumbnail" />
+                </div>
+                <!-- Lightbox Modal -->
+                <div id="lightbox" class="lightbox">
+                    <span class="close">&times;</span>
+                    <img class="lightbox-content" id="lightbox-img" />
+                </div>
+                <p>
+                    A full‑stack web app that automates TikTok market research, cutting time to insights from hours to
+                    minutes.
+                </p>
+                <div class="tech-tags">
+                    <span>Python</span><span>Flask</span><span>Playwright</span><span>Pandas</span><span>NLTK</span>
+                    <span>Gemini AI</span><span>JavaScript</span><span>Chart.js</span><span>HTML/CSS</span>
+                </div>
+                <a href="https://github.com/victorolivo24/tiktok-trend-analyzer" target="_blank" class="button">View on
+                    GitHub</a>
+            </div>
+
+            <!-- KEEP: Vault project -->
+            <div class="project">
+                <h3>Vault: Secured File Sharing & Message Board</h3>
+                <p>
+                    A secure collaboration platform with VirusTotal malware scanning and HMAC‑based verification.
+                </p>
+                <p class="award"><strong>🏆 1st Place Winner — Rutgers × Fiserv Hackathon</strong></p>
+                <div class="tech-tags">
+                    <span>Python</span><span>Flask</span><span>HTML</span><span>CSS</span><span>AES</span><span>VirusTotal
+                        API</span><span>JSON</span>
+                </div>
+                <a href="https://github.com/victorolivo24/vault" target="_blank" class="button">View on GitHub</a>
+            </div>
+
+            <!-- KEEP: Commut‑Ed project -->
+            <div class="project">
+                <h3>Commut‑Ed: Campus Ride‑Sharing App</h3>
+                <p>
+                    A ride‑sharing web application to connect students traveling to and from campus. React frontend +
+                    Java Spring
+                    Boot backend.
+                </p>
+                <div class="tech-tags">
+                    <span>React</span><span>Java</span><span>Spring Boot</span><span>HTML/CSS</span>
+                </div>
+                <a href="https://github.com/victorolivo24/ride-sharing-app" target="_blank" class="button">View on
+                    GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="contact-info">
+            <a href="mailto:victor.olivo@rutgers.edu">victor.olivo@rutgers.edu</a>
+            <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+            <a href="tel:+1-201-989-8660">(201) 989-8660</a>
+        </div>
+        <p class="copyright">&copy; 2025 Victor Olivo</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" title="Go to top">↑</button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
