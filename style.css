@@ -401,6 +401,13 @@ h2::after {
     box-shadow: 0 0 20px rgba(46, 160, 67, 0.4);
 }
 
+/* Button row layout (add this!) */
+.button-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 1rem;
+}
+
 /* --- Footer & Scroll Button --- */
 footer {
     text-align: center;
