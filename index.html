@@ -49,7 +49,7 @@
 
     <!-- About Me Section -->
     <section id="about">
-        <h2>About Me</h2>
+        <h2>About</h2>
         <div class="about-container">
             <img src="headshot.png" alt="A headshot of Shirina Daniel" class="headshot" />
             <div class="about-text">
@@ -169,47 +169,69 @@
 
         <!-- Projects Section -->
         <section id="projects">
-            <h2>My Projects</h2>
+            <h2>Projects</h2>
 
             <!-- UPDATED: Out of the Loop per resume (custom BERT + AWS) -->
             <div class="project">
                 <h3>My Music Page; INIT Build</h3>
-                <h4><a href="https://github.com/shirinadan/mymusicpage" target="_blank">https://github.com/shirinadan/mymusicpage</a></h4>
+                <div class="demo-preview">
+                    <p class="demo-caption">View demo of the dashboard</p>
+                    <video class="demo-thumbnail" id="demo-thumbnail" width="640" height="360" controls>
+                        <source src="https://shirinadan.github.io/videos/MyMusicPage.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Lightbox Modal -->
+                <div id="lightbox" class="lightbox">
+                    <span class="close">&times;</span>
+                    <video class="lightbox-content" id="lightbox-img" controls>
+                        <source src="https://shirinadan.github.io/videos/MyMusicPage.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <span class="timeline-date">October 2025 - Present</span>
                 <p>
                     Developing a Spotify-inspired Pinterest playlist web app with a 10-person team, designing and implementing UI components using Figma, React, TypeScript, 
                     and Tailwind CSS. Building responsive and interactive frontend features while applying component-based design, practicing Git/GitHub workflow, and collaborating 
-                    effectively to deliver a polished, user-friendly application
+                    effectively to deliver a polished, user-friendly application.
                 </p>
                 <div class="tech-tags">
                     <span>React</span><span>JavaScript</span><span>TypeScript</span><span>HTML & CSS</span><span>Tailwind CSS</span>
                     <span>Frontend Development</span><span>Figma</span><span>Responsive Design</span><span>Git/GitHub</span><span>Component-Based Design</span><span>Agile Workflow</span>
                 </div>
+                </div>
+                <a href="https://github.com/shirinadan/mymusicpage" target="_blank" class="button">View on GitHub</a>
+            </div>
             </div>
 
-            <!-- KEEP: TikTok Trend Analyzer -->
+            <!-- Project: Water Quality Data Project -->
             <div class="project">
-                <h3>AI‑Powered TikTok Trend Analyzer</h3>
-                <div class="demo-preview">
+                <h3>Water Quality Data Project</h3>
+                <span class="timeline-date">August 2025 - December 2025</span>
+                <p>
+                    Built an end-to-end data pipeline by cleaning CSV datasets using z-score outlier removal, storing the data in MongoDB, and developing a Flask REST API to enable accurate 
+                    and structured access to water quality data. Created an interactive Streamlit dashboard with Plotly visualizations, gaining hands-on experience in Python, ETL, API design, 
+                    full-stack development, and team collaboration.
+                </p>
+                <div class="tech-tags">
+                    <span>Python</span><span>ETL</span><span>Data Cleaning & Preprocessing</span><span>MongoDB</span><span>Flask/REST API Development</span>
+                    <span>Streamlit</span><span>Ploty/Data Visualization</span><span>Full-Stack Development</span><span>Team Collaboration</span><span>Data Analysis & Structured Access</span>
+                </div>
+                </div>
+                <a href="https://github.com/shirinadan/Water-Quality-Project" target="_blank" class="button">View on GitHub</a>
+            </div>
+            </div>
+                <!-- <div class="demo-preview">
                     <p class="demo-caption">View demo of the dashboard</p>
                     <img src="images/tiktok-demo.png" alt="TikTok Trend Analyzer Demo Screenshot" class="demo-thumbnail"
                         id="demo-thumbnail" />
                 </div>
-                <!-- Lightbox Modal -->
+                Lightbox Modal
                 <div id="lightbox" class="lightbox">
                     <span class="close">&times;</span>
                     <img class="lightbox-content" id="lightbox-img" />
                 </div>
-                <p>
-                    A full‑stack web app that automates TikTok market research, cutting time to insights from hours to
-                    minutes.
-                </p>
-                <div class="tech-tags">
-                    <span>Python</span><span>Flask</span><span>Playwright</span><span>Pandas</span><span>NLTK</span>
-                    <span>Gemini AI</span><span>JavaScript</span><span>Chart.js</span><span>HTML/CSS</span>
-                </div>
-                <a href="https://github.com/victorolivo24/tiktok-trend-analyzer" target="_blank" class="button">View on
-                    GitHub</a>
-            </div>
+            --->
 
             <!-- KEEP: Vault project -->
             <div class="project">
