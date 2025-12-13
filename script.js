@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         setTimeout(type, 500);
     }
-    const audioData = "audio/Portfolio song.mp3"; // your local file
+    const audioData = "./audio/Portfolio%20song.mp3"; // your local file
 
     const playBtn = document.getElementById('play-button');
     const pauseBtn = document.getElementById('pause-button');
