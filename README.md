@@ -1,3 +1,3 @@
 # shirinadan.github.io
 Portfolio
-- [Link](https://shirinadan.github.io/)
+- [Link](https://shirinadan.github.io/my-portfolio/)
